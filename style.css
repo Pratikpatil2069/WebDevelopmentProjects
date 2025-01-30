@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    font-family: Arial;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex; /*nav bar madhil element one line madhe*/
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+    
+}
+.border{
+    border:1.5px solid transparent;
+}
+.border:hover{
+    border:1.5px solid white;
+}
+.logo{
+    height: 50px;
+    width:100px;
+}
+/* box2*/
+.address-first{
+    font-size: 0.9rem;
+    margin-left: 15px;
+}
+.address-second{
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+.addIcon{
+    display: flex;
+}
+/*box3*/
+.navsearch{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+    justify-content: space-evenly;/*divide element in equal part*/
+}
+.navsearch:hover{
+    border:2px solid orange;
+}
+   
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color:#febd68;
+    border-top-right-radius:4px ;
+    border-bottom-right-radius:4px ;
+    color: #0f1111;
+
+}
+.navselect{
+    width: 50px;
+    text-align: center;
+    border-top-left-radius:4px ;
+    border-bottom-left-radius:4px ;
+    background-color: #f3f3f3;
+    border: none;
+   
+}
+.searchbar{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+/*box4*/
+span{
+    font-size: 0.7rem;
+}
+
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*box6*/
+.navcart i{
+    font-size: 30px;
+}
+
+.navcart{
+    font-size:0.85rem;
+    font-weight: 700;
+}
+/*panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panelops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panelops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.paneldeals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* hero section*/
+
+.herosection{
+    background-image: url(/image/hero_image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+    
+}
+.heromsg{
+    background-color: white;
+    color: black;
+    height:40px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 90%;
+    margin-bottom: 25px;
+    
+}
+.link{
+    text-decoration: none;
+    color: #001785;
+}
+
+/*shop section*/
+.shopsection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+}
+.boximg{
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.boxcontent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+.boxcontent p{
+    color: #007185;
+}
+
+/* footer*/
+footer{
+    margin-top: 5px;
+}
+.footpanel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 0.85rem;
+    
+}
+.footpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.heading{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.d1 p{
+    margin: 10px;
+}
+.footpanel3{
+    height: 70px;
+    background-color: #222f3d ;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-size: cover;
+    width: 100px;
+    height: 50px;
+    background-color: #222f3d;
+}
+.footpanel4{
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    
+}
+.pages{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 25px;
+}
+.copyright{
+    font-size: 0.7rem;
+    text-align: center;
+    padding-top: 5px ;
+}
