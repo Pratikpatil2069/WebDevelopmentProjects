@@ -1,4 +1,5 @@
 /*console.log("welcome to javaScript!");
+console.log("pratik");
 
 
 let name="pratik";
